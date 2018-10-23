@@ -1,0 +1,15 @@
+form{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+textarea{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+html{
+    background-color:lightgrey;
+}

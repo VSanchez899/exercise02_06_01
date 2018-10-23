@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Post New Message</title>
+    <link rel="stylesheet" href="quick.css">
 </head>
 <body>
     <?php
@@ -35,12 +36,14 @@
     <h1 style="text-align: center;">Post New Message</h1>
     <hr>
     <form style="margin-left: auto; margin-right: auto;" action="PostMessage.php" method="post">
+    
         <span style="font-weight: bold;">Subject: <input type="text" name="subject"></input></span>
         <span style="font-weight: bold;">Name: <input type="text" name="name"></input></span>
         <br>
         <textarea name="message" cols="80" rows="6" style="margin: 10px 5px 5px;"></textarea><br>
         <input type="reset" name="reset" value="Reset Form">
         <input type="submit" name="submit" value="Post Message">
+    
     </form>
     <hr>
     <p>
