@@ -1,0 +1,23 @@
+form{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+textarea{
+    background-color: grey;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+input{
+    background-color: grey;
+}
+html{
+    background-image: url(https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/ShIZkZR4Zj4uxbdal/videoblocks-lobby-hotel-blurred-background_bn-fsihsf_thumbnail-full01.png);
+}
+td{
+    background-color: white;
+    text-align: center;
+}
