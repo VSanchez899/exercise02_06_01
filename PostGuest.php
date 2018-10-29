@@ -44,11 +44,6 @@
                 $message = "";
             }
         }
-        
-        
-        // //debug
-        // echo $messageRecord;
-        // echo "$subject $name $message\n";
 
     }else {
         $subject = "";
@@ -57,6 +52,7 @@
     }
 
     ?>
+<!-- this is the html form and the buttons-->
     <img style="margin-left: auto; margin-right: auto; height: 15%; width: 15%; display: block;" src="https://designcontest2-com-designcontest.netdna-ssl.com/data/contests/16267/entries/e773b788591bd4f3.png"></img>
     <hr>
         <form style="margin-left: auto; margin-right: auto;" action="PostGuest.php" method="post">

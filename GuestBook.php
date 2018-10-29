@@ -77,6 +77,7 @@
         $key = key($keyMessageArray);
         foreach ($keyMessageArray as $message) {
             $currMsg = explode("~", $message);
+            //this is the code that displays the messages from the array
             echo "<tr>\n";
             echo "<td width=\"5%;\" style=\"text-align: center; font-weight: bold;\">" . $index . "</td>\n";
             echo "<td width=\"95%\"><span style=\"font-weight: bold\">Name: </span>" . htmlentities($key) . "<br>\n";
@@ -92,12 +93,12 @@
     }
     
     ?>
+    <!-- this is the buttons that change the order of name or delete them from the list -->
     <p><a style="text-align: center; display: block;" href="PostGuest.php">Post New Message</a>
         <a style="text-align: center; display: block;" href="GuestBook.php?action=Sort%20Ascending">Sort Subjects A-Z</a>
         <a style="text-align: center; display: block;" href="GuestBook.php?action=Sort%20Descending">Sort Subjects Z-A</a>
         <a style="text-align: center; display: block;" href="GuestBook.php?action=Delete%20First">Delete First Message</a>
         <a style="text-align: center; display: block;" href="GuestBook.php?action=Delete%20Last">Delete last Message</a>
-        <!-- <a style="text-align: center; display: block;" href="GuestBook.php?action=Remove%20Duplicates">Remove Duplicates</a> -->
     </p>
 </body>
 
